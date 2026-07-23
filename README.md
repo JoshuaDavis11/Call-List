@@ -1,16 +1,27 @@
-# Zoho CRM Data Table Project
+# Call List — Zoho CRM Data Table
 
+Dynamic, filterable data table for Zoho CRM records, built during my role as
+a Junior Zoho Developer at Salt & Lime (2024). Published here with
+permission; client data and credentials removed.
 
-## Overview:
-This is a small project developed using JavaScript, CSS, and HTML to leverage Zoho's API. It retrieves a list of data from Zoho CRM and displays it in a table format, allowing users to apply various filters for better data management and analysis.
+## The problem
 
-## Features:
-Data Retrieval: Fetches data from Zoho CRM using Zoho's API.
-Dynamic Table Display: Presents the retrieved data in an organized, easy-to-read table.
-Filtering Options: Allows users to apply various filters to quickly find and analyze specific data points.
+[One or two sentences: what were staff doing before this existed, and why
+was it slow or error-prone? This is the part a reader can't infer.]
 
+## Approach
 
-## Motivation:
-The goal of this project is to simplify data management within Zoho CRM by providing a user-friendly interface for data retrieval and filtering. This project also served as a practical exercise to improve my skills in JavaScript, CSS, and HTML while working with third-party APIs.
+- Retrieves CRM records through Zoho's REST API using asynchronous calls,
+  rendering results into a sortable, filterable table without a page reload.
+- Client-side filtering layered over server-side retrieval to keep the
+  interaction responsive against [N] records.
+- [Any state/pagination/caching decision worth naming.]
 
-Sensitive information has been Redacted.
+## Stack
+
+JavaScript · HTML/CSS · Zoho CRM REST API
+
+## Note on this repository
+
+Redacted copy of production work, shared with my employer's permission.
+Credentials and client data removed.
